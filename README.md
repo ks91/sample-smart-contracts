@@ -19,14 +19,16 @@ $ brownie bake token
 ```
 2. Copy the content of **contracts**, **scripts** and **tests** directories of this project into the corresponding directories of the token project
 
-3. Compile
+3. Compile (at **token** directory)
 ```
 $ brownie compile
 ```
 
-4. Test
+4. Test (at **token** directory)
 ```
 $ pytest tests
 ```
 "test_one_time_escrow.py" shows how to use the smart contracts to safely exchange between a property right and payment.
+
+**OneTimeEscrow** contract and the test code are intentionally imperfect. You may want to try to correct them.
 
